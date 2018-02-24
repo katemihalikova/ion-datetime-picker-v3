@@ -1,0 +1,35 @@
+{
+  "name": "@ion-datetime-picker/calendar-iso-saturday",
+  "version": "1.0.0-beta.0",
+  "author": "Kate Miháliková <kate@katemihalikova.cz> (https://katemihalikova.cz/)",
+  "license": "MIT",
+  "repository": "katemihalikova/ion-datetime-picker-v3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run compile",
+    "precompile": "rimraf dist",
+    "compile": "ngc",
+    "watch": "npm run compile && tsc -w",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "dependencies": {
+    "@ion-datetime-picker/calendar-iso-monday": "^1.0.0-beta.0"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^5.2.3",
+    "@angular/compiler-cli": "^5.2.3",
+    "@angular/core": "^5.2.3",
+    "@ion-datetime-picker/build-tools": "^1.0.0-beta.0",
+    "rimraf": "^2.6.1",
+    "rxjs": "^5.5.0",
+    "tslint": "^5.9.1",
+    "typescript": "~2.6.2"
+  }
+}

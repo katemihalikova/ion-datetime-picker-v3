@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {"path": "modules/core"},
+    {"path": "modules/build-tools"},
+    {"path": "modules/converter-iso-string"},
+    {"path": "modules/converter-date"},
+    {"path": "modules/converter-date-utc"},
+    {"path": "modules/converter-fixed"},
+    {"path": "modules/converter-asgardia"},
+    {"path": "modules/calendar-iso-monday"},
+    {"path": "modules/calendar-iso-sunday"},
+    {"path": "modules/calendar-iso-saturday"},
+    {"path": "modules/calendar-fixed"},
+    {"path": "modules/calendar-asgardia"},
+  ],
+  "settings": {
+    "typescript.tsdk": "../../node_modules/typescript/lib",
+  }
+}

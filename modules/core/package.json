@@ -1,0 +1,43 @@
+{
+  "name": "@ion-datetime-picker/core",
+  "version": "1.0.0-alpha.0",
+  "description": "Date and/or time picker for awesome ionic framework",
+  "author": "Kate Miháliková <kate@katemihalikova.cz> (https://katemihalikova.cz/)",
+  "license": "MIT",
+  "repository": "katemihalikova/ion-datetime-picker-v3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run compile && npm test",
+    "precompile": "rimraf dist",
+    "compile": "ngc",
+    "test": "echo 'No tests now'",
+    "watch": "npm run compile && tsc -w",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "ionic-angular": "~3.9.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^5.2.3",
+    "@angular/compiler": "^5.2.3",
+    "@angular/compiler-cli": "^5.2.3",
+    "@angular/core": "^5.2.3",
+    "@angular/forms": "^5.2.3",
+    "@angular/platform-browser": "^5.2.3",
+    "@angular/platform-browser-dynamic": "^5.2.3",
+    "@ion-datetime-picker/build-tools": "^1.0.0-beta.0",
+    "ionic-angular": "3.9.2",
+    "rimraf": "^2.6.1",
+    "rxjs": "^5.5.0",
+    "tslint": "^5.9.1",
+    "typescript": "~2.6.2",
+    "zone.js": "^0.8.10"
+  }
+}
