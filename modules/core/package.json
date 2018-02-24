@@ -1,6 +1,6 @@
 {
   "name": "@ion-datetime-picker/core",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Date and/or time picker for awesome ionic framework",
   "author": "Kate Miháliková <kate@katemihalikova.cz> (https://katemihalikova.cz/)",
   "license": "MIT",
@@ -32,7 +32,7 @@
     "@angular/forms": "^5.2.3",
     "@angular/platform-browser": "^5.2.3",
     "@angular/platform-browser-dynamic": "^5.2.3",
-    "@ion-datetime-picker/build-tools": "^1.0.0-beta.0",
+    "@ion-datetime-picker/build-tools": "^1.0.0-beta.1",
     "ionic-angular": "3.9.2",
     "rimraf": "^2.6.1",
     "rxjs": "^5.5.0",
