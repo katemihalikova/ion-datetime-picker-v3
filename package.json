@@ -1,0 +1,10 @@
+{
+  "name": "@ion-datetime-picker/repo",
+  "private": true,
+  "author": "Kate Miháliková <kate@katemihalikova.cz> (https://katemihalikova.cz/)",
+  "license": "MIT",
+  "repository": "katemihalikova/ion-datetime-picker-v3",
+  "devDependencies": {
+    "lerna": "^2.9.0"
+  }
+}
